@@ -3,6 +3,7 @@ import React, {useLayoutEffect} from 'react';
 import {FormattedMessage} from "react-intl";
 import {Carousel} from "react-bootstrap";
 import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 
 function Home() {
 
@@ -72,8 +73,8 @@ function Home() {
                       </div>
                   </div>
               </div>
-
           </div>
+          <Footer/>
       </React.Fragment>
 
   )

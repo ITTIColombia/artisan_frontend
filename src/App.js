@@ -9,30 +9,29 @@ import Home from './Pages/Home/Home';
 function App() {
 
   // stablish default language at navigator's storage (if not previously existent)
-  let storedLanguage = localStorage.getItem('language');
-  if (!storedLanguage) {
-    localStorage.setItem('language', navigator.language);
-    storedLanguage = navigator.language;
-  }
+  // let storedLanguage = localStorage.getItem('language');
+  // if (!storedLanguage) {
+  //   localStorage.setItem('language', navigator.language);
+  //   storedLanguage = navigator.language;
+  // }
 
-  const [languageSettings, setLanguageSettings] = useState({ messages: storedLanguage.startsWith("es") ? es : en, locale: storedLanguage });
+  // const [languageSettings, setLanguageSettings] = useState({ messages: storedLanguage.startsWith("es") ? es : en, locale: storedLanguage });
 
-  function setLang(lang) {
-    const updatedLang = { messages: undefined, locale: lang };
-    if (lang.startsWith(navigator.language.slice(0, 2))) {
-      updatedLang.locale = navigator.language;
-    }
-    updatedLang.messages = updatedLang.locale.startsWith("es") ? es : en;
-    localStorage.setItem("language", updatedLang.locale);
-    setLanguageSettings(updatedLang);
-  }
+  // function setLang(lang) {
+  //   const updatedLang = { messages: undefined, locale: lang };
+  //   if (lang.startsWith(navigator.language.slice(0, 2))) {
+  //     updatedLang.locale = navigator.language;
+  //   }
+  //   updatedLang.messages = updatedLang.locale.startsWith("es") ? es : en;
+  //   localStorage.setItem("language", updatedLang.locale);
+  //   setLanguageSettings(updatedLang);
+  // }
+
+  const [languageSettings, setLanguageSettings] = useState({ messages: navigator.language.startsWith("es") ? es : en, locale: navigator.language });
 
   return (
     <div className="App">
-      <IntlProvider
-          locale={languageSettings.locale}
-          messages={languageSettings.messages}
-      >
+      <IntlProvider locale={languageSettings.locale} messages={languageSettings.messages} >
           <BrowserRouter>
             <Routes>
               <Route path="/" exact element={<Home />} />

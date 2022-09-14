@@ -1,5 +1,5 @@
 {
-    "TitleAboutUs": "We build bridges between distant worlds",
+  "TitleAboutUs": "We build bridges between distant worlds",
   "SubtitleAboutUs": "We dream of a <span>fair</span>, <span>sustainable</span> and <span>local</span> trade",
   "ParagraphDream1": "We connect artisans from all regions of Colombia directly with customers so that they can sell their products without intermediaries, from their communities and at fair prices. At the moment, we specialize in accessories, complements and jewelry.",
   "ParagraphDream2": "Handmade products are mainly made with natural raw materials and do not require industrial or specialized machinery for their production, which contribute significantly to carbon emissions. Buying at ITTI is a great alternative to migrate towards a small-scale trade, friendly to the environment and respectful to producers.",
@@ -8,5 +8,12 @@
   "ArtisansExplanation2": "In general, artisans use techniques that have transcended in their communities from generation to generation. In their pieces they embody the traditions and values of their culture. For this reason, having a handmade product is like having a treasure.",
   "ArtisansExplanation3": "Let's show Colombian handmade products to the world and make them part of our daily lives!",
   "WhoAreWeBehindITTI":"Who are we behind ITTI?",
-  "TeamITTI": "We are Daniela González and Juan David Serrano, two friends since we were 6 years old. We studied at the Universidad de los Andes and graduated in Engineering in April 2022. We started ITTI as a university project with the intention of creating a product that generates social impact. We believe that we can take advantage of technology to generate changes in the way we consume and purchase our products, especially in a country like Colombia where some sectors still lack a true digital transformation."
+  "TeamITTI": "We are Daniela González and Juan David Serrano, two friends since we were 6 years old. We studied at the Universidad de los Andes and graduated in Engineering in April 2022. We started ITTI as a university project with the intention of creating a product that generates social impact. We believe that we can take advantage of technology to generate changes in the way we consume and purchase our products, especially in a country like Colombia where some sectors still lack a true digital transformation.",
+
+  "MeetUs": "Meet Us",
+  "ContactUs": "Contact Us",
+  "FollowUs": "Follow Us",
+  "FAQ": "Frequently Ask Questions",
+  "AboutUsFooter": "About Us",
+  "AllRightsReserved": "All Rights Reserved."
 }
