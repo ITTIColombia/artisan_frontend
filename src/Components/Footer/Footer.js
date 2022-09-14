@@ -11,7 +11,7 @@ function Footer() {
                 <div className="row footer-row">
                     {/*<div className="col-lg-4 col-sm-12 col-xs-12 footer-icon-col footer-col">*/}
                     <div className="col-4 footer-icon-col footer-col">
-                        <img className="img float-left" src="/Assets/Logos/logoFooter.svg" alt="ITTI"/>
+                        <a href={"#Home"}><img className="img float-left" src="/Assets/Logos/logoFooter.svg" alt="ITTI"/></a>
                         <div id="footer-copyright-region">
                             <img className="copy" src={CopyrightSvg} alt="copyright"/>
                             <span>2021 ITTI. <FormattedMessage id="AllRightsReserved"/></span>
@@ -20,7 +20,7 @@ function Footer() {
                     {/*<div className="col-lg-3 col-sm-12 col-xs-12 footer-col">*/}
                     <div className="col-3 footer-col">
                         <p className="footer-section-title"><FormattedMessage id="MeetUs"/></p>
-                        <Link to={"/"}><p className="footer-section-content"><FormattedMessage id="AboutUsFooter"/></p></Link>
+                        <a href={"#Us"}><p className="footer-section-content"><FormattedMessage id="AboutUsFooter"/></p></a>
                         <p className="footer-section-content"><FormattedMessage id="FAQ"/></p>
                     </div>
                     {/*<div className=" col-lg-3 col-sm-12 col-xs-12  footer-col">*/}

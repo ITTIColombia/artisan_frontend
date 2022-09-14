@@ -17,7 +17,7 @@ function Home() {
           <Navbar/>
           <div id="AboutUs">
               <div className="container-fluid">
-                  <div className="aboutUs-banner row">
+                  <div className="aboutUs-banner row" id="Home">
                       <div className="col-12 aboutUs-banner-col">
                           <img className="aboutUs-banner-img" src="/Assets/Photos/Home/Banner.png" alt="Banner artisan" />
                           <div id="aboutUs-banner-helper">
@@ -56,7 +56,7 @@ function Home() {
                           <img src="/Assets/Photos/Home/Mockup.png" alt="Artisan" className="aboutUs-artisans-img"/>
                       </div>
                   </div>
-                  <div className="aboutUs-behindITTI row">
+                  <div className="aboutUs-behindITTI row" id="Us">
                       <div className="col-12">
                           <h3 id="aboutUs-WhoAreWe">
                               <FormattedMessage id="WhoAreWeBehindITTI"/>
