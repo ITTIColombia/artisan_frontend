@@ -65,3 +65,16 @@
 .separador30{
     margin: 60px;
 }
+
+@media (max-width: 769px){
+    .container{
+        .formulario{
+            .form-group{
+                width: auto;
+            }
+            .boton{
+                width: 100%;
+            }
+        }
+    }
+}
