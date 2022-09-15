@@ -1,4 +1,67 @@
-.formulario{
-    background-color: rgb(243,242,240);
-    padding: 20px;
+.container{
+    margin: 60px auto;
+    .formulario{
+        background-color: rgb(243,242,240);
+        padding: 20px;
+        .titulo{
+            max-width: 600px;
+            margin: 10px auto;
+            font-size: 28px;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 25px;
+            font-weight: bold;
+            span{
+                color: orangered;
+            }
+        }
+        .form-group{
+            width: 400px;
+            margin: 15px auto;
+            label{
+                width: 100%;
+                text-align: start;
+            }
+            input, textarea{
+               width: 100%; 
+               background-color: transparent;
+               border: transparent ;
+               border-bottom: 1px solid black;
+               &:focus{
+                outline: none;
+                border-bottom: 1px solid orangered;
+               }
+            }
+            label, input{
+                height: 30px;
+                font-size: 18px;
+            } 
+        }
+        .error{
+            color: red;
+            font-size: 22px;
+            display: none;
+        }
+        .visible{
+            display: block !important;
+        }
+        .boton{
+            background-color: orangered;
+            width: 400px;
+            border: 1px solid transparent;
+            color: white;
+            margin: 30px auto;
+            text-transform: uppercase;
+        }
+        .login{
+            margin: 30px auto;
+            a{
+                text-decoration: none;
+                cursor: pointer;
+                color: orangered;
+            }
+        }
+    }
+}
+.separador30{
+    margin: 60px;
 }
