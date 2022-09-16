@@ -26,7 +26,7 @@ export default class RegisterForm extends React.Component {
     };
     samePasword = () => {
         let error = document.getElementById('error')
-        if(this.state.password != this.state.repeatPassword){
+        if(this.state.password !== this.state.repeatPassword){
             error.classList.add('visible')
             return false
         }
@@ -56,7 +56,7 @@ export default class RegisterForm extends React.Component {
     }
     paso1 = () => {
         this.samePasword()
-        if(this.validarEmail() && this.state.password == this.state.repeatPassword && this.state.password != "" && this.state.repeatPassword != ""){
+        if(this.validarEmail() && this.state.password === this.state.repeatPassword && this.state.password !== "" && this.state.repeatPassword !== ""){
             this.siguientePaso()
         }
         
